@@ -13,4 +13,9 @@
     * http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/
         * https://en.wikipedia.org/wiki/CNAME_record
 * Twitter Resources
-    * https://about.twitter.com/en_us/company/brand-resources.html
+    * https://about.twitter.com/en_us/company/brand-resources.
+    
+# Security
+* Tabnabbing
+    * https://en.wikipedia.org/wiki/Tabnabbing
+    * https://stackoverflow.com/questions/15551779/open-link-in-new-tab-or-window
