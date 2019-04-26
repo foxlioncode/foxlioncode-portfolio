@@ -11,16 +11,40 @@
 <style>
     body {
         background-color: #7B7B7B;
+        text-align: center;
+    }
+
+    hr {
+        border-color: #FFF6D5;
+    }
+
+    .titleBox {
+        border-width: 0px;
+        border-style: solid;
+        border-color: none;
+        position: relative;
+        display: inline-block;
     }
 
     #titleText {
-        color: white;
-        font-size: 100px;
-        margin: 0;
+        border-width: 0px;
+        border-style: solid;
+        border-color: red;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: -100px;
     }
 
-    #foxVector {
-        padding: 50px;
+    #centerFox {
+        border-width: 0px;
+        border-style: solid;
+        border-color: red;
+        padding-top: 200px;
+    }
+
+    #foxVector2 {
+        padding-bottom: 50px;
     }
 
     .center {
@@ -29,14 +53,19 @@
 </style>
 
 <body>
-    <div class="center">
-        <p id="titleText">Fox Lion Code</p>
+
+    <div class="titleBox">
+
+        <img id="titleText" src="./assets/fox-text-002.svg" alt="foxLionCodeText" width="800px">
+
+        <div id="centerFox">
+            <img src="./assets/fox-002.png" alt="fox-logo" width="400px" id="foxVector1">
+            <img src="./assets/fox-digi.svg" alt="fox-logo" width="310px" id="foxVector2">
+        </div>
+
     </div>
 
-    <div class="center">
-        <img src="./assets/fox-002.png" alt="fox-logo" width="400px">
-        <img src="./assets/fox-digi.svg" alt="fox-logo" width="310px" id="foxVector">
-    </div>
+    <hr>
 
     <footer class="center">
         <a href="https://twitter.com/foxlioncode" target="_blank"
@@ -44,6 +73,7 @@
         <br>
         (April 25, 2019)
     </footer>
+
 </body>
 
 </html>
