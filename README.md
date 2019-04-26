@@ -14,6 +14,12 @@
         * https://en.wikipedia.org/wiki/CNAME_record
 * Twitter Resources
     * https://about.twitter.com/en_us/company/brand-resources.
+
+# Front-End Development
+* Overylays
+    * https://stackoverflow.com/questions/43806515/position-svg-elements-over-an-image
+* Inkscape
+    * http://wiki.inkscape.org/wiki/index.php/Vector-brushes
     
 # Security
 * Tabnabbing
