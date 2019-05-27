@@ -6,61 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>FoxLionCode</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
-<style>
-    body {
-        background-color: #7B7B7B;
-        text-align: center;
-    }
-
-    hr {
-        border-color: #FFF6D5;
-    }
-
-    .titleBox {
-        border-width: 0px;
-        border-style: solid;
-        border-color: none;
-        position: relative;
-        display: inline-block;
-    }
-
-    #titleText {
-        border-width: 0px;
-        border-style: solid;
-        border-color: red;
-        z-index: 1;
-        position: absolute;
-        top: 0;
-        left: -100px;
-    }
-
-    #centerFox {
-        border-width: 0px;
-        border-style: solid;
-        border-color: red;
-        padding-top: 200px;
-    }
-
-    #foxVector2 {
-        padding-bottom: 50px;
-    }
-
-    .center {
-        text-align: center;
-    }
-</style>
 
 <body>
 
     <div class="titleBox">
 
-        <img id="titleText" src="./assets/fox-text-002.svg" alt="foxLionCodeText" width="800px">
+        <img id="titleText">
 
         <div id="centerFox">
-            <img src="./assets/fox-002.png" alt="fox-logo" width="400px" id="foxVector1">
-            <img src="./assets/fox-digi.svg" alt="fox-logo" width="310px" id="foxVector2">
+            <img onclick="changeLogo()" id="animateFoxLogo">
+            <!-- <img id="animateFoxLogo" src="./assets/fox-002.png" alt=""> -->
+            <!-- <img src="./assets/fox-002.png" alt="fox-logo" width="400px" id="foxVector1"> -->
+            <!-- <img src="./assets/fox-digi.svg" alt="fox-logo" width="310px" id="foxVector2"> -->
         </div>
 
     </div>
@@ -75,5 +34,7 @@
     </footer>
 
 </body>
+
+<script src="./script.js"></script>
 
 </html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #7b7b7b;
+    text-align: center;
+}
+
+hr {
+    border-color: #fff6d5;
+}
+
+.titleBox {
+    border-width: 0px;
+    border-style: solid;
+    border-color: none;
+    position: relative;
+    display: inline-block;
+}
+
+@keyframes fadeTransition {
+    from {opacity: 1}
+    to {opacity: 0;}
+}
+
+#animateFoxLogo {
+}
+
+#animateFoxLogo {
+    /* width: 300px; */
+    /* animation: fadeTransition 2s; */
+}
+
+#titleText {
+    border-width: 0px;
+    border-style: solid;
+    border-color: red;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: -100px;
+}
+
+#centerFox {
+    border-width: 0px;
+    border-style: solid;
+    border-color: red;
+    padding-top: 200px;
+}
+
+#foxVector2 {
+    padding-bottom: 50px;
+}
+
+.center {
+    text-align: center;
+}
